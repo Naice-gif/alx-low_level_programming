@@ -7,15 +7,18 @@
  */
 void print_times_table(int n)
 {
-	int m = 0;
-	if(n < 15 && n > 0){
-		while (0 <= n){
-			while (n >= m){
-				printf("%d,\t", m*n);
+	int m = 0, x = 0;
+	if(n < 15 && n > 0)
+	{
+		while (n >= x)
+		{
+			while (n >= m)
+			{
+				printf("%d,\t", m*x);
 			 	m++;
 			}
 			printf("\n");
-			n--;
+			x++;
 		}
 	}
 }
