@@ -19,7 +19,7 @@ void print_times_table(int n)
 			 	m++;
 			}
 			printf("\n");
-			x++;
+			a++;
 		}
 	}
 }
