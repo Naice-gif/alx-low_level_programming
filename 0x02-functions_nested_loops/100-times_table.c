@@ -14,5 +14,5 @@ void print_times_table(int n)
     		}
     		printf("\n");
     	}
-    	return 0;
+    	return (0);
 }
