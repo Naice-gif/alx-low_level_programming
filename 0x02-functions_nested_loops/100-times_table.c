@@ -7,14 +7,15 @@
  */
 void print_times_table(int n)
 {
-	int m = 0, x = 0;
+	int m = 0;
+       	int a = 0;
 	if(n < 15 && n > 0)
 	{
-		while (n >= x)
+		while (n >= a)
 		{
 			while (n >= m)
 			{
-				printf("%d,\t", m*x);
+				printf("%d,\t", m*a);
 			 	m++;
 			}
 			printf("\n");
