@@ -8,8 +8,8 @@
 void print_times_table(int n)
 {
 	int m = 0;
-	if(n < 15 || n > 0){
-		while (0 >= n){
+	if(n < 15 && n > 0){
+		while (0 <= n){
 			while (n >= m){
 				printf("%d,\t", m*n);
 			 	m++;
