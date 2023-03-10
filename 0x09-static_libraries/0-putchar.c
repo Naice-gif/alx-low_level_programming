@@ -1,23 +1,16 @@
 #include "main.h"
+
 /**
- * main - Prints _putchar as a message.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: Always 0 (Success)
+ * Return: On success 0.
+ *
  */
 
-int main(void)
+int _putchar(char c)
 {
-char str[] = "_putchar\n";
-int i = 0;
-
-while (str[i] != '\0')
-	{
-	char c = str[i];
-
-	_putchar(c);
-	i++;
-	}
-return (0);
+	return (0);
 }
 
 
