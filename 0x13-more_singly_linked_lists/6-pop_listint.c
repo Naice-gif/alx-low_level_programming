@@ -5,7 +5,7 @@
  * @head: pointer to the address of the element in the linked list
  *
  * Return: the data in the head node (n).
- * or if thelinked list is empty - 0.
+ *         or if thelinked list is empty - 0.
  */
 int pop_listint(listint_t **head)
 {
@@ -17,7 +17,7 @@ int pop_listint(listint_t **head)
 
 
         temporary = *head;
-	node = (*head)->n;
+       	node = (*head)->n;
 	*head = (*head)->next;
 
 
