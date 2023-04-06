@@ -1,8 +1,11 @@
-
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
+/*
+ * Desc: This is a header file, in it we find prototypes and definitions 
+ *       for functions written in this current  project.
+ */
+
 #include <stdlib.h>
 
 /**
@@ -35,5 +38,5 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
-#endif
+#endif /* LISTS_H */
 
